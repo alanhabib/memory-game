@@ -16,7 +16,7 @@ function flipCard() {
     // but the firstCard variable is still on set so that condition is evaluate to false and the function will execute normally
     // if it is the secondCard click the "this" variable holds the secondCard and
     // in case it is the same as firstCard it will return from the function
-    
+
     if (this === firstCard) return;
 
     this.classList.add('flip');
